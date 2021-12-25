@@ -5,4 +5,5 @@ Attention pytorch implementation
 * Bahdanau Monotonic Attention
 * Dot Product Attentin
 * Luong Attention
+* Lacation Sensitive Attention
 * Multi Head Attention
