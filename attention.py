@@ -10,12 +10,12 @@ import torch.nn.functional as F
 import matplotlib.pyplot as plt
 import numpy as np
 
-class LacationSensitiveAttention(nn.Module):
+class LocationSensitiveAttention(nn.Module):
     """
     Attention class를 좀 더 효율적이게 수정. mask도 추가.
     """
     def __init__(self, encoder_dim, decoder_dim, conv_dim, num_units, smoothing=False):
-        super(LacationSensitiveAttention, self).__init__()
+        super(LocationSensitiveAttention, self).__init__()
         self.dec_dim = decoder_dim
         self.enc_dim = encoder_dim
         self.conv_dim = conv_dim  # 주로 1.
